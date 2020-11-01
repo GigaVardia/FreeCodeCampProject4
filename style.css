@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,h1,h2,h3,h4,p,
+ul[class],
+ol[class],
+li,
+figure,figcaption,blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body { 
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav header {
+    color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+  }
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+nav ul li {
+    color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  padding: 10px 10px 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+#main-doc {
+    position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  padding-top: 50px;
+  margin-bottom: 110px;
+}
+
+article ul li {
+    margin-left: 5em;
+    margin-top: 2em;
+    font-size: 15px;
+}
+
+
+main header {
+    font-size: 30px;
+    font-weight: thin;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+article p {
+    margin-left: 20px;
+}
+
+code {
+    display: block;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
